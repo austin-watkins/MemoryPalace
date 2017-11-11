@@ -1,6 +1,18 @@
-/**
- * Created by awatki12 on 11/10/2017.
- */
-public class Loci {
 
+public class Loci {
+  private String place;
+  private String image;
+
+  public Loci(String place, String image) {
+    this.place = place;
+    this.image = image;
+  }
+
+  public String getPlace() {
+    return place;
+  }
+
+  public String getImage() {
+    return image;
+  }
 }
